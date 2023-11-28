@@ -28,7 +28,7 @@ function SingleProduct({ product }) {
        } catch (error) {
          console.log(error.response.data);
          setLoader(false)
-         setErrMsg(true)
+        // setErrMsg(true)
        }
     }
     
